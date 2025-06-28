@@ -205,8 +205,8 @@ begin
     -- Remove non-allowed characters (keep only a-z, 0-9, and -)
     set new_string = '';
     set @i = 1;
-    WHILE @i <= CHAR_LENGTH(dirty_string) DO
-        SET @char = SUBSTRING(dirty_string, @i, 1);
+    while @i <= char_length(dirty_string) DO
+        set @char = substring(dirty_string, @i, 1);
         if @char regexp '[a-z0-9-]' then
             set new_string = concat(new_string, @char);
         end if;
