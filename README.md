@@ -1,6 +1,6 @@
-# MySQL Slugify Function
+# SQL Slugify Function
 
-A comprehensive MySQL function that converts strings into URL-friendly slugs by transliterating international characters and cleaning up formatting.
+A comprehensive SQL function that converts strings into URL-friendly slugs by transliterating international characters and cleaning up formatting.
 
 ## Features
 
